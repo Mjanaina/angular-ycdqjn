@@ -1,0 +1,27 @@
+<html>
+ <h2 class = nome >
+ Bloco de anotações
+</h2>
+
+<p class = nome>
+ 
+Digite: 
+< input type  = 
+" text"[( ngModel)] = mensagem >
+<Button (click)= "addmensagem()"> ADD 
+</Button>
+</p>
+
+<h4 class =nome>
+Mensagem
+</h4>
+
+<li * ngFor=" let anot of listamensagens">
+
+{{ anot}} 
+<button (click) = "removermensagem (anot)"> Remover
+</button>
+  </li>
+
+
+</html>

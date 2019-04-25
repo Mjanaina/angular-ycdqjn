@@ -1,0 +1,16 @@
+Export classe AppComponent {
+
+mensagem;
+
+Listamensagem =[ ];
+
+addmensagem(){
+this.listamensagem.push(this.mensagem);
+}
+
+Removermensagem (anot){
+
+let posição = this.listamensagem.indexof (anot);
+ this.listamensagem.splice(posição,1);
+}
+}
